@@ -4089,13 +4089,14 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
 		height: auto;
 		line-height: 1.2;
 		padding: 1em 2.25em;
+		gap: 2em;
 	}
 
 		#header h1 {
@@ -4104,6 +4105,7 @@ input, select, textarea {
 			line-height: 1.2;
 			position: static;
 			top: auto;
+			order: -1;
 		}
 
 			#header h1 a {
@@ -4129,7 +4131,12 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				gap: 0.45em;
+				-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			gap: 0.6em;
+			flex-wrap: wrap;
 			}
 
 				#header nav > ul > li > a {
@@ -4171,6 +4178,7 @@ input, select, textarea {
 		}
 
 		#banner .inner {
+			margin: 0 auto;
 			max-width: 60em;
 			position: relative;
 			z-index: 1;
@@ -4537,6 +4545,16 @@ input, select, textarea {
 	#footer {
 		background: #11355c;
 		color: rgba(255, 255, 255, 0.75);
+		padding: 4em 2.25em;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer-content-block {
+		max-width: 50em;
+		width: 100%;
 	}
 
 		#footer h2 {
