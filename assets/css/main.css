@@ -4446,8 +4446,8 @@ input, select, textarea {
 
 	.enrollment-layout {
 		display: grid;
-		gap: 2.5em;
-		grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+		gap: 3em;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.enrollment-copy-header {
@@ -4505,6 +4505,7 @@ input, select, textarea {
 		border-radius: 1.5em;
 		box-shadow: 0 26px 60px rgba(14, 51, 95, 0.1);
 		padding: 2.5em;
+		overflow: hidden;
 	}
 
 		.enrollment-form-shell form {
@@ -4520,6 +4521,14 @@ input, select, textarea {
 		border: solid 1px #d6e5f4;
 		box-shadow: none;
 		color: #244363;
+		width: 100%;
+		padding: 0.8em 1em;
+		font-size: 0.95em;
+		box-sizing: border-box;
+	}
+
+	.google-form-ready-form .row > * {
+		box-sizing: border-box;
 	}
 
 	.google-form-ready-form label {

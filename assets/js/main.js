@@ -46,8 +46,9 @@
 	// Scrolly.
 		$('.scrolly')
 			.scrolly({
-				speed: 800,
-				offset: $header.outerHeight()
+				speed: 600,
+				offset: $header.outerHeight(),
+				interrupt: true
 			});
 
 	// Menu.
