@@ -4306,6 +4306,7 @@ input, select, textarea {
 		font-size: 0.78em;
 		letter-spacing: 0.16em;
 		padding: 0.95em 1.35em;
+		text-align: center;
 		text-transform: uppercase;
 	}
 
