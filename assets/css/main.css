@@ -4089,13 +4089,14 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
 		height: auto;
 		line-height: 1.2;
 		padding: 1em 2.25em;
+		gap: 2em;
 	}
 
 		#header h1 {
@@ -4104,6 +4105,7 @@ input, select, textarea {
 			line-height: 1.2;
 			position: static;
 			top: auto;
+			order: -1;
 		}
 
 			#header h1 a {
@@ -4129,7 +4131,12 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				gap: 0.45em;
+				-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			gap: 0.6em;
+			flex-wrap: wrap;
 			}
 
 				#header nav > ul > li > a {
@@ -4171,6 +4178,7 @@ input, select, textarea {
 		}
 
 		#banner .inner {
+			margin: 0 auto;
 			max-width: 60em;
 			position: relative;
 			z-index: 1;
@@ -4438,8 +4446,8 @@ input, select, textarea {
 
 	.enrollment-layout {
 		display: grid;
-		gap: 2.5em;
-		grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+		gap: 3em;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.enrollment-copy-header {
@@ -4497,6 +4505,7 @@ input, select, textarea {
 		border-radius: 1.5em;
 		box-shadow: 0 26px 60px rgba(14, 51, 95, 0.1);
 		padding: 2.5em;
+		overflow: hidden;
 	}
 
 		.enrollment-form-shell form {
@@ -4512,6 +4521,14 @@ input, select, textarea {
 		border: solid 1px #d6e5f4;
 		box-shadow: none;
 		color: #244363;
+		width: 100%;
+		padding: 0.8em 1em;
+		font-size: 0.95em;
+		box-sizing: border-box;
+	}
+
+	.google-form-ready-form .row > * {
+		box-sizing: border-box;
 	}
 
 	.google-form-ready-form label {
@@ -4537,6 +4554,16 @@ input, select, textarea {
 	#footer {
 		background: #11355c;
 		color: rgba(255, 255, 255, 0.75);
+		padding: 4em 2.25em;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer-content-block {
+		max-width: 50em;
+		width: 100%;
 	}
 
 		#footer h2 {
