@@ -4330,14 +4330,14 @@ input, select, textarea {
 	.hero-action-list {
 		margin-bottom: 0 !important;
 		margin-left: 0 !important;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		-moz-gap: 2em;
+		gap: 2em;
 		padding: 0;
 		width: 100%;
-		padding-left: 100px;
-		padding-right: 50px;
 		box-sizing: border-box;
 	}
 
@@ -4354,9 +4354,9 @@ input, select, textarea {
 	}
 
 	.hero-action-list .button {
-		min-width: 220px;
-		width: 220px;
-		font-size: 0.75em;
+		min-width: 260px;
+		width: 260px;
+		font-size: 0.8em;
 	}
 
 	header.major h2,
