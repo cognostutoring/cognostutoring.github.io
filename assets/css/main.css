@@ -4334,8 +4334,11 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		padding: 0 100px;
-		width: calc(100% - 200px);
+		padding: 0;
+		width: 100%;
+		padding-left: 100px;
+		padding-right: 100px;
+		box-sizing: border-box;
 	}
 
 	.hero-action-list li {
@@ -4351,8 +4354,9 @@ input, select, textarea {
 	}
 
 	.hero-action-list .button {
-		min-width: 240px;
-		width: 240px;
+		min-width: 220px;
+		width: 220px;
+		font-size: 0.9em;
 	}
 
 	header.major h2,
