@@ -4330,18 +4330,33 @@ input, select, textarea {
 	.hero-action-list {
 		margin-bottom: 0 !important;
 		margin-left: 0 !important;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		-moz-gap: 2em;
+		gap: 2em;
+		padding: 0;
+		width: 100%;
+		box-sizing: border-box;
 	}
 
 	.hero-action-list li {
-		padding: 0 0.5em !important;
+		padding: 0 !important;
+		-moz-flex: 0 0 auto;
+		-webkit-flex: 0 0 auto;
+		-ms-flex: 0 0 auto;
+		flex: 0 0 auto;
 	}
 
 	.hero-action-list li:first-child {
-		padding-left: 0.5em !important;
+		padding-left: 0 !important;
 	}
 
 	.hero-action-list .button {
-		min-width: 180px;
+		min-width: 260px;
+		width: 260px;
+		font-size: 0.8em;
 	}
 
 	header.major h2,
