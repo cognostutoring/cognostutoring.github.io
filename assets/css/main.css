@@ -4228,6 +4228,12 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.hero-intro-label {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.banner-summary {
 		text-align: center;
 	}
@@ -4322,22 +4328,20 @@ input, select, textarea {
 	}
 
 	.hero-action-list {
-		margin-bottom: 0;
-		justify-content: center;
-		gap: 1em;
-		width: 100%;
-		margin-left: 0;
+		margin-bottom: 0 !important;
+		margin-left: 0 !important;
 	}
 
 	.hero-action-list li {
-		padding: 0;
-		margin: 0 0.5em;
+		padding: 0 0.5em !important;
 	}
 
-	.hero-action-list li a {
-		min-width: 200px;
-		display: inline-block;
-		text-align: center;
+	.hero-action-list li:first-child {
+		padding-left: 0.5em !important;
+	}
+
+	.hero-action-list .button {
+		min-width: 180px;
 	}
 
 	header.major h2,
