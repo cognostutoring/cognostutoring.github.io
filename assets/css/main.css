@@ -4337,7 +4337,7 @@ input, select, textarea {
 		padding: 0;
 		width: 100%;
 		padding-left: 100px;
-		padding-right: 100px;
+		padding-right: 50px;
 		box-sizing: border-box;
 	}
 
@@ -4356,7 +4356,7 @@ input, select, textarea {
 	.hero-action-list .button {
 		min-width: 220px;
 		width: 220px;
-		font-size: 0.9em;
+		font-size: 0.75em;
 	}
 
 	header.major h2,
