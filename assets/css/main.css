@@ -3651,10 +3651,10 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			border: none;
-			bottom: 0;
+			bottom: -1em;
 			color: inherit;
 			font-size: 0.8em;
-			height: 10.5em;
+			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -3739,10 +3739,10 @@ input, select, textarea {
 		}
 
 	body.is-preload #banner .more {
-		-moz-transform: translateY(10.5em);
-		-webkit-transform: translateY(10.5em);
-		-ms-transform: translateY(10.5em);
-		transform: translateY(10.5em);
+		-moz-transform: translateY(8.5em);
+		-webkit-transform: translateY(8.5em);
+		-ms-transform: translateY(8.5em);
+		transform: translateY(8.5em);
 		opacity: 0;
 	}
 
@@ -4504,7 +4504,7 @@ input, select, textarea {
 	}
 
 	.enrollment-copy-header {
-		margin-bottom: 2.5em;
+		margin-bottom: 1.5em;
 	}
 
 	.enrollment-steps {
