@@ -3651,7 +3651,7 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			border: none;
-			bottom: 0;
+			bottom: -2.5em;
 			color: inherit;
 			font-size: 0.8em;
 			height: 8.5em;
@@ -3739,10 +3739,10 @@ input, select, textarea {
 		}
 
 	body.is-preload #banner .more {
-		-moz-transform: translateY(8.5em);
-		-webkit-transform: translateY(8.5em);
-		-ms-transform: translateY(8.5em);
-		transform: translateY(8.5em);
+		-moz-transform: translateY(10em);
+		-webkit-transform: translateY(10em);
+		-ms-transform: translateY(10em);
+		transform: translateY(10em);
 		opacity: 0;
 	}
 
@@ -4495,8 +4495,11 @@ input, select, textarea {
 
 	.enrollment-layout {
 		display: grid;
-		gap: 3em;
-		grid-template-columns: 1fr 1fr;
+		gap: 1.5em;
+		grid-template-columns: 1fr;
+		text-align: center;
+		max-width: 50em;
+		margin: 0 auto;
 	}
 
 	.enrollment-copy-block {
@@ -4504,7 +4507,11 @@ input, select, textarea {
 	}
 
 	.enrollment-copy-header {
-		margin-bottom: 2.5em;
+		margin-bottom: 0.75em;
+	}
+
+	.enrollment-copy-header h2 {
+		font-size: 2.2em;
 	}
 
 	.enrollment-steps {
@@ -4604,6 +4611,32 @@ input, select, textarea {
 		font-size: 0.9em;
 		margin-bottom: 0;
 		text-align: center;
+	}
+
+	.google-form-container {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.form-intro-text {
+		color: #244363;
+		font-size: 1.1em;
+		margin-bottom: 2em;
+		line-height: 1.6;
+		max-width: 45em;
+	}
+
+	.google-form-link {
+		margin-top: 1em;
+		transition: all 0.3s ease;
+	}
+
+	.google-form-link:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 20px rgba(36, 67, 99, 0.25);
 	}
 
 	#footer {
