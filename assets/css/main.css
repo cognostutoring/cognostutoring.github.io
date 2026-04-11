@@ -4219,7 +4219,18 @@ input, select, textarea {
 
 		#banner .more {
 			color: rgba(255, 255, 255, 0.9);
+			left: 50% !important;
+			transform: translateX(-50%);
+			margin-left: 0 !important;
 		}
+
+	.tutoring-hero-content {
+		text-align: center;
+	}
+
+	.banner-summary {
+		text-align: center;
+	}
 
 	.wrapper.style5 {
 		background-color: #ffffff;
@@ -4312,14 +4323,21 @@ input, select, textarea {
 
 	.hero-action-list {
 		margin-bottom: 0;
+		justify-content: center;
+		gap: 1em;
+		width: 100%;
+		margin-left: 0;
 	}
 
-	.hero-action-list li:first-child {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
-		margin-right: auto;
+	.hero-action-list li {
+		padding: 0;
+		margin: 0 0.5em;
+	}
+
+	.hero-action-list li a {
+		min-width: 200px;
+		display: inline-block;
+		text-align: center;
 	}
 
 	header.major h2,
