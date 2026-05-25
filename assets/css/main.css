@@ -4456,6 +4456,22 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+	.owner-profile-two-paragraph {
+		display: flex;
+		flex-direction: column;
+		gap: 2em;
+	}
+
+	.owner-profile-two-paragraph .owner-profile-details {
+		text-align: center;
+		margin: 0;
+	}
+
+	.owner-profile-two-paragraph .owner-profile-first {
+		border-bottom: 1px solid #c5d4e1;
+		padding-bottom: 2em;
+	}
+
 	.tutoring-highlight-section {
 		background: linear-gradient(180deg, #123962 0%, #2a6fbe 100%);
 		color: rgba(255, 255, 255, 0.84);
