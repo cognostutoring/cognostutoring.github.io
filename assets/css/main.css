@@ -4431,6 +4431,13 @@ input, select, textarea {
 			box-shadow: 0 26px 48px rgba(13, 52, 98, 0.14);
 		}
 
+		.owner-profile-section .spotlight .image img.smaller-photo {
+			max-height: 450px;
+			width: auto;
+			display: block;
+			margin: 0 auto;
+		}
+
 		.owner-profile-section .spotlight .content {
 			padding: 3.2em 4em 1.2em 4em;
 		}
@@ -4649,6 +4656,10 @@ input, select, textarea {
 		margin-bottom: 2em;
 		line-height: 1.6;
 		max-width: 45em;
+	}
+
+	.form-intro-text.limited-spots {
+		margin-top: 2em;
 	}
 
 	.google-form-link {
