@@ -4459,7 +4459,7 @@ input, select, textarea {
 	.owner-profile-two-paragraph {
 		display: flex;
 		flex-direction: column;
-		gap: 2em;
+		gap: 1em;
 	}
 
 	.owner-profile-two-paragraph .owner-profile-details {
@@ -4468,7 +4468,7 @@ input, select, textarea {
 	}
 
 	.owner-profile-two-paragraph .owner-profile-first {
-		padding-bottom: 2em;
+		padding-bottom: 1em;
 	}
 
 	.tutoring-highlight-section {
