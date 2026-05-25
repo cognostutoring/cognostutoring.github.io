@@ -4658,6 +4658,10 @@ input, select, textarea {
 		max-width: 45em;
 	}
 
+	.form-intro-text.limited-spots {
+		margin-top: 2em;
+	}
+
 	.google-form-link {
 		margin-top: 1em;
 		transition: all 0.3s ease;
