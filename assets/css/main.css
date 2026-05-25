@@ -4434,6 +4434,8 @@ input, select, textarea {
 		.owner-profile-section .spotlight .image img.smaller-photo {
 			max-height: 450px;
 			width: auto;
+			display: block;
+			margin: 0 auto;
 		}
 
 		.owner-profile-section .spotlight .content {
