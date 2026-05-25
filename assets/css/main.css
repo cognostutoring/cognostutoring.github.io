@@ -4431,6 +4431,11 @@ input, select, textarea {
 			box-shadow: 0 26px 48px rgba(13, 52, 98, 0.14);
 		}
 
+		.owner-profile-section .spotlight .image img.smaller-photo {
+			max-height: 450px;
+			width: auto;
+		}
+
 		.owner-profile-section .spotlight .content {
 			padding: 3.2em 4em 1.2em 4em;
 		}
